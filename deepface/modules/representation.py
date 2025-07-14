@@ -20,7 +20,7 @@ def represent(
     expand_percentage: int = 0,
     normalization: str = "base",
     anti_spoofing: bool = False,
-    max_faces: Optional[int] = None,
+    max_faces: Optional[int] = 10,
 ) -> Union[List[Dict[str, Any]], List[List[Dict[str, Any]]]]:
     """
     Represent facial images as multi-dimensional vector embeddings.
