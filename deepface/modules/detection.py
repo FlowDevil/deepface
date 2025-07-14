@@ -45,7 +45,7 @@ def extract_faces(
     color_face: str = "rgb",
     normalize_face: bool = True,
     anti_spoofing: bool = False,
-    max_faces: Optional[int] = 10,
+    max_faces: Optional[int] = 9,
 ) -> List[Dict[str, Any]]:
     """
     Extract faces from a given image
